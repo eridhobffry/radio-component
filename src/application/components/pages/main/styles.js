@@ -28,6 +28,7 @@ export const ContentWrapper = styled.div`
     justify-content: center;
     align-items: center;
     padding: 20px;
+    overflow: auto;
 `
 
 export const FooterWrapper = styled.div`

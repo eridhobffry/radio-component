@@ -1,5 +1,5 @@
 import { api } from 'application/api'
-import { ACTIONS } from 'application/contants'
+import { ACTIONS } from 'application/constants'
 import { takeEvery, call, put, delay } from 'redux-saga/effects'
 import { getRadiosDetailsFailed, getRadiosDetailsSucceed, populateRadiosDetails,  } from 'application/redux/actions/radios'
 

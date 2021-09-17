@@ -1,3 +1,3 @@
-import RadioDetailsPreview from "./component"
+import RadioDetailsPreview from "./container"
 export { RadioDetailsPreview }
 export default RadioDetailsPreview

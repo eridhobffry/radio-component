@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Switch, withRouter } from 'react-router'
-import { ROUTES } from 'application/contants'
+import { ROUTES } from 'application/constants'
 import { MainPage } from '..'
 
 const RoutesComponent = () => {

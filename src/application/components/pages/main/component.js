@@ -1,3 +1,5 @@
+import { RadioDetailsPreview } from 'application/components/building_block'
+import { nanoid } from 'nanoid'
 import React from 'react'
 import { BaseLayout } from '../_layout'
 import RadiosLoader from './loader'
@@ -14,7 +16,16 @@ const MainComponent = (props) => {
                     </Styled.HeaderWrapper>
                     <Styled.FlexDividerHorizontal />
                     <Styled.ContentWrapper>
-
+                        {
+                            radios.map(r => {
+                                return <RadioDetailsPreview
+                                    key={nanoid()}
+                                    radioName={r.name}
+                                    radioFrequency={r.frequency}
+                                    radioImage={r.image}
+                                />
+                            })
+                        }
                     </Styled.ContentWrapper>
                     <Styled.FlexDividerHorizontal />
                     <Styled.FooterWrapper>

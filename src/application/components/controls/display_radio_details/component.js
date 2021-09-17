@@ -1,11 +1,9 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 const DisplayRadioDetails = () => {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <Fragment>
+        
+    </Fragment>
 }
 
 export default DisplayRadioDetails
