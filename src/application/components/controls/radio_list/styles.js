@@ -9,6 +9,7 @@ export const DiplayWrapper = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    cursor: pointer;
 `
 
 export const RadioName = styled.h1`
