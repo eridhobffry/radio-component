@@ -24,8 +24,9 @@ export const theme = {
         notificationSuccess: '#55d17b',
         warning: '#ffa500',
         success: '#4bb543',
-        primary: '#2d72fe',
-        rollianBackground: '#ffdfca'
+        primary: '#2f2f39',
+        primaryDark: '#22222a',
+        rollianSecondary: '#ecad60'
     },
     breakpoint: {
         xSmall: 480,
