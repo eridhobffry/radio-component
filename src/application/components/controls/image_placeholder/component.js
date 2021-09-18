@@ -8,7 +8,7 @@ const StyledImagePlaceHolderWrapper = styled.div`
 `
 
 const StyledImage = styled.img`
-    width: ${props => props.large !== undefined ? props.large : '60%'};
+    width: ${props => props.large !== undefined ? props.large : '100px'};
     height: ${props => props.height !== undefined ? props.height : 'auto'};
     border: 2px solid ${props => props.theme.color.color20};
     display: flex;
