@@ -1,15 +1,16 @@
 import React, { Fragment } from 'react'
 import * as Styled from './styles'
 import { FontIcon } from 'application/components/controls'
+import { withTheme } from 'styled-components'
 
-const RadioHeader = ({ hideRadioDetails }) => {
+const RadioHeader = ({ hideRadioDetails, theme }) => {
     return <Fragment>
-        <FontIcon onIconClick={hideRadioDetails} icon='arrow_back_ios' borderless />
+        <FontIcon onIconClick={hideRadioDetails} color={theme.color.color15} icon='arrow_back_ios' borderless />
         <Styled.HeaderHeadline>
             STATIONS
         </Styled.HeaderHeadline>
-        <FontIcon icon='power_settings_new' borderless />
+        <FontIcon icon='power_settings_new' color={theme.color.color15} borderless />
     </Fragment>
 }
 
-export default RadioHeader
+export default withTheme(RadioHeader)

@@ -4,7 +4,7 @@ import RadioDetailsPreview from "./component"
 const { selectRadiosDetails } = require("application/redux/actions/radios")
 
 const mapStateToProps = (state) => ({
-    isRadioSelected: state.radios.action.isSelected,
+    isSelected: state.radios.action.isSelected,
     selectedRadio: state.radios.action.selectedRadio
 })
 
