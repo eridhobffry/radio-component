@@ -1,4 +1,4 @@
-import { RadioDetailsPreview } from 'application/components/building_block'
+import { RadioDetailsPreview, RadioFooter, RadioHeader } from 'application/components/building_block'
 import { nanoid } from 'nanoid'
 import React from 'react'
 import { BaseLayout } from '../_layout'
@@ -12,7 +12,7 @@ const MainComponent = (props) => {
             radiosDataLoaded && <BaseLayout>
                 <Styled.MainContainer>
                     <Styled.HeaderWrapper>
-
+                        <RadioHeader />
                     </Styled.HeaderWrapper>
                     <Styled.FlexDividerHorizontal />
                     <Styled.ContentWrapper>
@@ -29,7 +29,7 @@ const MainComponent = (props) => {
                     </Styled.ContentWrapper>
                     <Styled.FlexDividerHorizontal />
                     <Styled.FooterWrapper>
-
+                        <RadioFooter />
                     </Styled.FooterWrapper>
                 </Styled.MainContainer>
             </BaseLayout>
